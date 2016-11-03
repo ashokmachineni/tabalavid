@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A83A20A123E15CF1649B9C /* Pods_alampractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60102ACB89AA4AE38BB0895C /* Pods_alampractice.framework */; };
 		F9AA58B21DCA707E00F1AC7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AA58B11DCA707E00F1AC7F /* AppDelegate.swift */; };
 		F9AA58B41DCA707E00F1AC7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AA58B31DCA707E00F1AC7F /* ViewController.swift */; };
 		F9AA58B71DCA707E00F1AC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AA58B51DCA707E00F1AC7F /* Main.storyboard */; };
 		F9AA58B91DCA707E00F1AC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9AA58B81DCA707E00F1AC7F /* Assets.xcassets */; };
 		F9AA58BC1DCA707E00F1AC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AA58BA1DCA707E00F1AC7F /* LaunchScreen.storyboard */; };
+		F9DD258A1DCAA002003A344E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD25891DCAA002003A344E /* TableViewCell.swift */; };
+		F9DE203E1DCABF5400E10BFF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DE203C1DCABF5400E10BFF /* AVFoundation.framework */; };
+		F9DE203F1DCABF5400E10BFF /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DE203D1DCABF5400E10BFF /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FA73806C20E6EBFE309A923 /* Pods-alampractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alampractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alampractice/Pods-alampractice.debug.xcconfig"; sourceTree = "<group>"; };
+		60102ACB89AA4AE38BB0895C /* Pods_alampractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alampractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA80894F5BA0FA024A9671B0 /* Pods-alampractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alampractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-alampractice/Pods-alampractice.release.xcconfig"; sourceTree = "<group>"; };
 		F9AA58AE1DCA707E00F1AC7F /* alampractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alampractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9AA58B11DCA707E00F1AC7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9AA58B31DCA707E00F1AC7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,10 @@
 		F9AA58B81DCA707E00F1AC7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9AA58BB1DCA707E00F1AC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9AA58BD1DCA707E00F1AC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9DD25891DCAA002003A344E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F9DE20391DCAAF9100E10BFF /* alampractice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "alampractice-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9DE203C1DCABF5400E10BFF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F9DE203D1DCABF5400E10BFF /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9DE203E1DCABF5400E10BFF /* AVFoundation.framework in Frameworks */,
+				F9DE203F1DCABF5400E10BFF /* AVKit.framework in Frameworks */,
+				01A83A20A123E15CF1649B9C /* Pods_alampractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C5C3D11B64CAED6ECC4B6B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FA73806C20E6EBFE309A923 /* Pods-alampractice.debug.xcconfig */,
+				DA80894F5BA0FA024A9671B0 /* Pods-alampractice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B48127DB169816858A8435C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9DE203C1DCABF5400E10BFF /* AVFoundation.framework */,
+				F9DE203D1DCABF5400E10BFF /* AVKit.framework */,
+				60102ACB89AA4AE38BB0895C /* Pods_alampractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9AA58A51DCA707D00F1AC7F = {
 			isa = PBXGroup;
 			children = (
 				F9AA58B01DCA707E00F1AC7F /* alampractice */,
 				F9AA58AF1DCA707E00F1AC7F /* Products */,
+				7C5C3D11B64CAED6ECC4B6B9 /* Pods */,
+				8B48127DB169816858A8435C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +95,8 @@
 				F9AA58B81DCA707E00F1AC7F /* Assets.xcassets */,
 				F9AA58BA1DCA707E00F1AC7F /* LaunchScreen.storyboard */,
 				F9AA58BD1DCA707E00F1AC7F /* Info.plist */,
+				F9DD25891DCAA002003A344E /* TableViewCell.swift */,
+				F9DE20391DCAAF9100E10BFF /* alampractice-Bridging-Header.h */,
 			);
 			path = alampractice;
 			sourceTree = "<group>";
@@ -71,9 +108,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9AA58C01DCA707E00F1AC7F /* Build configuration list for PBXNativeTarget "alampractice" */;
 			buildPhases = (
+				1D43A9CF5A3C98FC8FC9633A /* 📦 Check Pods Manifest.lock */,
 				F9AA58AA1DCA707D00F1AC7F /* Sources */,
 				F9AA58AB1DCA707D00F1AC7F /* Frameworks */,
 				F9AA58AC1DCA707D00F1AC7F /* Resources */,
+				6E295A0FB427109D8E82115E /* 📦 Embed Pods Frameworks */,
+				BABB562B8CC2E561AC10A871 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,12 +130,18 @@
 		F9AA58A61DCA707D00F1AC7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+					"New-1",
+					"New-2",
+				);
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Ashok Machineni";
 				TargetAttributes = {
 					F9AA58AD1DCA707D00F1AC7F = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,11 +177,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D43A9CF5A3C98FC8FC9633A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E295A0FB427109D8E82115E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alampractice/Pods-alampractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BABB562B8CC2E561AC10A871 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alampractice/Pods-alampractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9AA58AA1DCA707D00F1AC7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9DD258A1DCAA002003A344E /* TableViewCell.swift in Sources */,
 				F9AA58B41DCA707E00F1AC7F /* ViewController.swift in Sources */,
 				F9AA58B21DCA707E00F1AC7F /* AppDelegate.swift in Sources */,
 			);
@@ -256,24 +351,31 @@
 		};
 		F9AA58C11DCA707E00F1AC7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA73806C20E6EBFE309A923 /* Pods-alampractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = alampractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashok.alampractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "alampractice/alampractice-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F9AA58C21DCA707E00F1AC7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA80894F5BA0FA024A9671B0 /* Pods-alampractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = alampractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashok.alampractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "alampractice/alampractice-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +399,7 @@
 				F9AA58C21DCA707E00F1AC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

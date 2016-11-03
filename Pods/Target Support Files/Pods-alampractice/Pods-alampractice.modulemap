@@ -1,0 +1,6 @@
+framework module Pods_alampractice {
+  umbrella header "Pods-alampractice-umbrella.h"
+
+  export *
+  module * { export * }
+}
